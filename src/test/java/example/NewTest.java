@@ -17,14 +17,7 @@ public class NewTest {
 		public void testEasy() {	
 			String title = driver.getTitle();				 
 			Assert.assertTrue(title.contains("Free Selenium Tutorials")); 		
-		}	
-		//Changes1000
-		@Test				
-		public void testEasy1() {	 
-			String title = driver.getTitle();				 
-			Assert.assertFalse(title.contains("Hi There!")); 		
 		}
-		
 		@BeforeTest
 		public void beforeTest() {	
 		    driver = new FirefoxDriver(); 

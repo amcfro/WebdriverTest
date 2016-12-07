@@ -18,7 +18,7 @@ public class NewTest {
 			String title = driver.getTitle();				 
 			Assert.assertTrue(title.contains("Free Selenium Tutorials")); 		
 		}	
-		//Changes9
+		//Changes100
 		@Test				
 		public void testEasy1() {	 
 			String title = driver.getTitle();				 
